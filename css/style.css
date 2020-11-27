@@ -1,0 +1,227 @@
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/OpenSans-SemiBold.eot');
+    src: url('../fonts/OpenSans-SemiBold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/OpenSans-SemiBold.woff2') format('woff2'),
+    url('../fonts/OpenSans-SemiBold.woff') format('woff'),
+    url('../fonts/OpenSans-SemiBold.ttf') format('truetype'),
+    url('../fonts/OpenSans-SemiBold.svg#OpenSans-SemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/OpenSans-Light.eot');
+    src: url('../fonts/OpenSans-Light.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/OpenSans-Light.woff2') format('woff2'),
+    url('../fonts/OpenSans-Light.woff') format('woff'),
+    url('../fonts/OpenSans-Light.ttf') format('truetype'),
+    url('../fonts/OpenSans-Light.svg#OpenSans-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/OpenSans-LightItalic.eot');
+    src: url('../fonts/OpenSans-LightItalic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/OpenSans-LightItalic.woff2') format('woff2'),
+    url('../fonts/OpenSans-LightItalic.woff') format('woff'),
+    url('../fonts/OpenSans-LightItalic.ttf') format('truetype'),
+    url('../fonts/OpenSans-LightItalic.svg#OpenSans-LightItalic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bg_h {
+    background-image: url("../images/background_h_01.jpg");
+    height: 100vh;
+    background-size: cover;
+
+}
+
+header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    padding: 15px 50px 0 50px;
+}
+
+.d-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .main {
+    color: white;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header .main span {
+    font-family: "Open Sans";
+    font-weight: 600;
+}
+
+h1 {
+    margin: auto;
+    font-family: "Open Sans";
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+    font-size: 80px;
+    color: white;
+}
+
+h1 span {
+    font-family: "Open Sans";
+    fofont-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+
+.portfolio {
+    padding-top: 80px;
+    max-width: 770px;
+    margin: auto;
+    text-align: center;
+}
+
+.portfolio h2 {
+    margin-bottom: 22px;
+    color: #d4af37;
+    font-family: "Open Sans";
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+.portfolio h3 {
+    margin-bottom: 55px;
+    font-family: "Open Sans";
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+    color: rgba(2, 23, 37, 0.702);
+    font-size: 44px;
+
+
+}
+
+.portfolio p {
+    margin-bottom: 50px;
+    font-size: 18px;
+    color: rgb(2, 23, 37);
+    font-family: "OpenSans";
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+    line-height: 1.778;
+
+
+}
+
+.portfolio a {
+    display: inline-block;
+    padding: 22px 47px;
+    background: white;
+    border: black solid 1px;
+    text-decoration: none;
+    color: rgb(2, 23, 37);
+    margin-bottom: 165px;
+    font-family: "OpenSans";
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+
+}
+
+
+.foto {
+    padding-top: 92px;
+    max-width: 1280px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.foto div {
+    margin: -2px 2px 0 0;
+}
+
+.who {
+    padding-top: 160px;
+
+}
+
+.people {
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.people img {
+    margin-bottom: -6px;
+}
+
+.people div div {
+    background-color: #f9f9f9;
+    max-width: 246px;
+    margin: auto;
+    padding: 20px 17px 48px 17px;
+    text-align: left;
+
+}
+
+.people div div h3 {
+    font-size: 21px;
+    margin-bottom: 36px;
+}
+
+.people div div p {
+    margin-bottom: 0;
+}
+
+.last_post {
+    max-width: 770px;
+    margin: auto;
+    padding-top: 162px;
+}
+
+.last_post h2 {
+    color: #d4af37;
+    font-family: "Open Sans";
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+    text-transform: uppercase;
+    font-size: 13px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.last_post h3 {
+    font-family: "Open Sans";
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+    color: rgba(2, 23, 37, 0.702);
+    font-size: 44px;
+    text-align: center;
+}

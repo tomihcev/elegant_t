@@ -178,6 +178,7 @@ h1 span {
 
 .people img {
     margin-bottom: -6px;
+    max-width: 100%;
 }
 
 .people div div {
@@ -226,3 +227,8 @@ h1 span {
     text-align: center;
 }
 
+.last_post .nout{
+    background-color: #f9f9f9;
+
+
+}

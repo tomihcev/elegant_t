@@ -261,6 +261,7 @@ h1 span {
     font-display: swap;
     font-size: 13px;
     color: #505d68;
+    text-transform: uppercase;
     margin-bottom: 20px;
 }
 
@@ -280,10 +281,43 @@ h1 span {
     font-weight: 300;
     font-style: normal;
     font-display: swap;
-    font-size: 30px;
+    font-size: 16px;
     color: #505d68;
-    margin-bottom: 40px;
+    line-height: 25px;
+    margin-bottom: 75px;
 }
 
+.last_post .nout a {
+    padding: 18px 50px;
+    border: black solid 1px;
+    color: black;
+    text-decoration: none;
+    font-family: "Open Sans";
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+    font-size: 14px;
+
+}
+
+.last_post .blog a {
+    display: inline-block;
+    padding: 25px 55px;
+    border: black solid 1px;
+    color: black;
+    text-decoration: none;
+    font-family: "Open Sans";
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+    font-size: 14px;
+    margin-top: 85px;
+    text-align: center;
+}
+
+.last_post .blog {
+    text-align: center;
+    margin-bottom: 162px;
 
 
+}

@@ -322,7 +322,7 @@ h1 span {
 
 }
 
-.contact h2{
+.contact h2 {
     color: #d4af37;
     font-family: "Open Sans";
     font-weight: 600;
@@ -335,7 +335,7 @@ h1 span {
 
 }
 
-.contact h3{
+.contact h3 {
     font-family: "Open Sans";
     font-weight: 600;
     font-style: normal;
@@ -346,18 +346,18 @@ h1 span {
     margin-bottom: 55px;
 }
 
-.contact .map{
+.contact .map {
     position: relative;
     max-width: 768px;
     height: 296px;
     margin: auto;
 }
 
-.contact .map iframe{
+.contact .map iframe {
     position: absolute;
 }
 
-.contact_text{
+.contact_text {
     max-width: 768px;
     margin: auto;
     background-color: #f9f9f9;
@@ -365,15 +365,15 @@ h1 span {
     flex-wrap: wrap;
 }
 
-.contact_text div{
+.contact_text div {
     max-width: 250px;
     height: 115px;
-  margin: 0 80px;
+    margin: 0 80px;
     padding-top: 50px;
 }
 
 
-.contact_text div h2{
+.contact_text div h2 {
     font-size: 13px;
     font-family: "Open Sans";
     font-weight: 600;
@@ -387,7 +387,7 @@ h1 span {
 }
 
 
-.contact_text div span{
+.contact_text div span {
     font-size: 19px;
     font-family: "Open Sans";
     font-weight: 300;
@@ -398,10 +398,25 @@ h1 span {
     line-height: 25px;
 
 
-
 }
 
 
+footer{
+    margin-top:85px;
+    background-color:#f9f9f9 ;
+    padding-top: 35px;
+    padding-bottom: 35px;
 
+}
+
+footer div{
+    max-width: 769px;
+    margin: auto;
+    padding-right: 11px;
+    padding: 11px;
+    display: flex;
+    justify-content: space-between;
+
+}
 
 

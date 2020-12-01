@@ -114,7 +114,7 @@ h1 span {
     text-align: center;
 }
 
-.portfolio h2 {
+.portfolio h6 {
     margin-bottom: 22px;
     color: #d4af37;
     font-family: "Open Sans";
@@ -187,7 +187,12 @@ h1 span {
 .people {
     padding-top: 80px;
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+.people .item{
+
+    margin: 0 2px 0 2px ;
 }
 
 .people img {
@@ -219,7 +224,7 @@ h1 span {
     padding-top: 162px;
 }
 
-.last_post h2 {
+.last_post h6 {
     color: #d4af37;
     font-family: "Open Sans";
     font-weight: 600;
@@ -241,16 +246,20 @@ h1 span {
     text-align: center;
 }
 
+.last_post .lens{
+    display: flex;
+    flex-wrap: wrap;
+}
 
-.last_post div img {
-    max-width: 100%;
+.last_post .one{
+    width: 50%;
 }
 
 
 .last_post .nout {
     background-color: #f9f9f9;
-    max-width: 50%;
-    padding: 45px 20px 60px 40px;
+width: 50%;
+    padding: 40px 20px 40px 40px;
 
 }
 
@@ -322,7 +331,7 @@ h1 span {
 
 }
 
-.contact h2 {
+.contact h6 {
     color: #d4af37;
     font-family: "Open Sans";
     font-weight: 600;
@@ -355,6 +364,7 @@ h1 span {
 
 .contact .map iframe {
     position: absolute;
+
 }
 
 .contact_text {
@@ -401,16 +411,15 @@ h1 span {
 }
 
 
-
-footer{
-    margin-top:85px;
-    background-color:#f9f9f9 ;
+footer {
+    margin-top: 85px;
+    background-color: #f9f9f9;
     padding-top: 35px;
     padding-bottom: 35px;
 
 }
 
-footer div{
+footer div {
     max-width: 769px;
     margin: auto;
     padding-right: 11px;
@@ -423,7 +432,6 @@ footer div{
     font-style: normal;
     font-display: swap;
     font-size: 16px;
-
 
 
 }

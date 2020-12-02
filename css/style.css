@@ -61,6 +61,7 @@
 .bg_h {
     background-image: url("../images/background_h_01.jpg");
     height: 100vh;
+    max-width: 100%;
     background-size: cover;
 
 }
@@ -167,7 +168,7 @@ h1 span {
 
 
 .foto {
-    padding-top: 92px;
+    padding-top: 150px;
     max-width: 1280px;
     margin: auto;
     display: flex;
@@ -190,9 +191,10 @@ h1 span {
     flex-wrap: wrap;
 
 }
-.people .item{
 
-    margin: 0 2px 0 2px ;
+.people .item {
+
+    margin: 0 2px 0 2px;
 }
 
 .people img {
@@ -246,19 +248,19 @@ h1 span {
     text-align: center;
 }
 
-.last_post .lens{
+.last_post .lens {
     display: flex;
     flex-wrap: wrap;
 }
 
-.last_post .one{
+.last_post .one {
     width: 50%;
 }
 
 
 .last_post .nout {
     background-color: #f9f9f9;
-width: 50%;
+    width: 50%;
     padding: 40px 20px 40px 40px;
 
 }
@@ -383,7 +385,7 @@ width: 50%;
 }
 
 
-.contact_text div h2 {
+.contact_text div h6{
     font-size: 13px;
     font-family: "Open Sans";
     font-weight: 600;

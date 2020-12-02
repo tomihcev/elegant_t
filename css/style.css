@@ -56,6 +56,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
 
 .bg_h {
@@ -169,7 +170,7 @@ h1 span {
 
 .foto {
     padding-top: 150px;
-    max-width: 1280px;
+    max-width: 1285px;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
@@ -193,18 +194,18 @@ h1 span {
 }
 
 .people .item {
-
+width: 100%;
     margin: 0 2px 0 2px;
 }
 
 .people img {
     margin-bottom: -6px;
-    max-width: 100%;
+    width: 50%;
 }
 
 .people div div {
     background-color: #f9f9f9;
-    max-width: 246px;
+    width: 50%;
     margin: auto;
     padding: 20px 17px 48px 17px;
     text-align: left;

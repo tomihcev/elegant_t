@@ -29,56 +29,55 @@
 
     }
 
-    h1{
+    h1 {
         font-size: 95px;
     }
 
-    .portfolio{
+    .portfolio {
         padding-top: 155px;
     }
 
-    .portfolio h6{
+    .portfolio h6 {
         font-size: 28px;
     }
 
-    .portfolio h3{
+    .portfolio h3 {
         font-size: 90px;
     }
 
-    .portfolio p{
+    .portfolio p {
         font-size: 29px;
         margin-bottom: 70px;
     }
 
-    .portfolio a{
+    .portfolio a {
         font-size: 27px;
         margin-bottom: 300px;
     }
 
 
-    .foto img{
-     min-width: 750px;
+    .foto img {
+width: 120%;
+
 
     }
 
-    .people .item{
-        margin: auto;
-    }
+
 
     .people .item img {
-        min-width: 678px;
+        width: 100%;
         margin-top: 50px;
     }
 
     .people .item div {
-        min-width: 678px;
+        width: 100%;
     }
 
-    .last_post h6{
+    .last_post h6 {
         font-size: 28px;
     }
 
-    .last_post h3{
+    .last_post h3 {
         font-size: 90px;
         margin-bottom: 80px;
         margin-left: 25px;
@@ -86,97 +85,93 @@
     }
 
 
-    .last_post .lens{
-        display: block;
+    .last_post .lens {
+        width: 100%;
     }
 
-    .last_post .one img{
-        min-width: 680px;
+    .last_post .one img {
+        width: 200%;
         margin-left: 35px;
     }
 
-    .last_post .nout{
-        min-width: 680px;
+    .last_post .nout {
+        width: 100%;
         margin-left: 35px;
         padding: 80px;
 
     }
 
-    .last_post .nout h4{
+    .last_post .nout h4 {
         font-size: 28px;
     }
 
-    .last_post .nout h5{
+    .last_post .nout h5 {
         font-size: 60px;
     }
 
-    .last_post .nout p{
+    .last_post .nout p {
         font-size: 29px;
         line-height: 50px;
     }
 
-    .last_post .nout a{
+    .last_post .nout a {
         font-size: 29px;
 
     }
 
-    .last_post .blog a{
+    .last_post .blog a {
         font-size: 30px;
         margin-bottom: 200px;
     }
 
-    .contact h6{
+    .contact h6 {
         font-size: 28px;
     }
 
-    .contact h3{
+    .contact h3 {
         font-size: 90px;
         margin-bottom: 50px;
     }
 
-   .contact .map{
-       max-width: 680px;
-       height: 300px;
-   }
+    .contact .map {
+        max-width: 680px;
+        height: 300px;
+    }
 
-    .contact_text{
+    .contact_text {
         max-width: 680px;
         line-height: 45px;
         padding-bottom: 75px;
     }
 
-    .contact_text div{
+    .contact_text div {
         margin: 0 15px;
     }
 
 
-    .contact_text div h6{
+    .contact_text div h6 {
         font-size: 28px;
         margin-bottom: 75px;
     }
 
 
-
-
-    .contact_text div span{
+    .contact_text div span {
         font-size: 30px;
     }
 
-    .contact_text div{
+    .contact_text div {
         max-width: 280px;
         text-align: center;
     }
 
-    footer div{
-flex-wrap: wrap;
+    footer div {
+        flex-wrap: wrap;
     }
 
-    footer .mardg{
-        margin-right:200px;
+    footer .mardg {
+        margin-right: 200px;
     }
 }
-
-
 
 
 @media only screen and (max-width: 420px) {

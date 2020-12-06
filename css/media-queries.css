@@ -59,12 +59,19 @@
 
 
     .foto img {
-width: 120%;
+        width: 100%;
 
 
     }
 
+    .foto {
+        display: block;
+    }
 
+
+    .people {
+        display: block;
+    }
 
     .people .item img {
         width: 100%;
@@ -93,13 +100,12 @@ width: 120%;
 
     .last_post .one img {
         width: 200%;
-        margin-left: 35px;
+
     }
 
     .last_post .nout {
         width: 100%;
-        margin-left: 35px;
-        padding: 80px;
+
 
     }
 

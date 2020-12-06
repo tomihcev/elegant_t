@@ -189,25 +189,24 @@ h1 span {
 .people {
     padding-top: 80px;
     display: flex;
-    flex-wrap: wrap;
+
 
 }
 
 .people .item {
-width: 100%;
+
     margin: 0 2px 0 2px;
 }
 
 .people img {
     margin-bottom: -6px;
-    width: 50%;
+
 }
 
 .people div div {
     background-color: #f9f9f9;
-    width: 50%;
-    margin: auto;
-    padding: 20px 17px 48px 17px;
+margin: 0 4px;
+    padding: 20px 15px 48px 15px;
     text-align: left;
 
 }
@@ -386,7 +385,7 @@ width: 100%;
 }
 
 
-.contact_text div h6{
+.contact_text div h6 {
     font-size: 13px;
     font-family: "Open Sans";
     font-weight: 600;

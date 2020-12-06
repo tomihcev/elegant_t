@@ -64,9 +64,9 @@
 
     }
 
-   .foto{
-       display: block;
-   }
+    .foto {
+        display: block;
+    }
 
 
     .people {
@@ -178,13 +178,13 @@
 
     footer .mardg {
         margin-right: 200px;
+
+    }
+
+    .foto {
+        display: block;
     }
 }
-
-.foto{
-    display: block;
-}
-
 
 @media only screen and (max-width: 420px) {
 
